@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calculadora Simples</h1>
+    <div class="corpo">
+        <div class="apresent" id="tela">
+            
+        </div>
+        <div class="tela1" id="tela1">
+            
+        </div>
+        
+        <div class="divnum1">
+            <input type="button" value="1" class="num" onclick="n1()">
+            <input type="button" value="2" class="num" onclick="n2()">
+            <input type="button" value="3" class="num" onclick="n3()">
+            <input type="button" value="+" class="num" onclick="op1()">
+            <input type="button" value="-" class="num" onclick="op2()">
+        </div>
+        <div>
+            <input type="button" value="4" class="num" onclick="n4()">
+            <input type="button" value="5" class="num" onclick="n5()">
+            <input type="button" value="6" class="num" onclick="n6()">
+            <input type="button" value="0" class="num" onclick="n0()">
+            <input type="button" value="&pi;" class="num" onclick="pi()">
+        </div>
+        <div>
+            <input type="button" value="7" class="num" onclick="n7()">
+            <input type="button" value="8" class="num" onclick="n8()">
+            <input type="button" value="9" class="num" onclick="n9()">
+            <input type="button" value="&divide;" class="num" onclick="op3()">
+            <input type="button" value="&times;" class="num" onclick="op4()"> 
+        </div>
+        <div>
+            <input type="button" value="," class="num" onclick="virg()">
+            <input type="button" value="C" class="num" id="C" onclick="reset()">
+            <input type="button" value="=" class="num" onclick="igual()">
+        </div>
+    </div>
+    <footer>&copyWebDeveloperGabriel</footer>
+</body>
+</html>
